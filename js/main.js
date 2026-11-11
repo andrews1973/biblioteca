@@ -152,7 +152,7 @@ const libro1 = new Libro("1984", "George Orwell", "12345");
 const libro2 = new Libro("El Quijote", "Cervantes", "67890");
 
 console.log("Estado de " + libro1.titulo + ": " + libro1.getEstado());
-console.log("Estado de " + libro2.titulo + ": " + libro1.getEstado());
+console.log("Estado de " + libro2.titulo + ": " + libro2.getEstado());
 
 // añadimos a la bibiblioteca
 biblio.agregarLibro(libro1);
